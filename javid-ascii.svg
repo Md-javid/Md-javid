@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 420" width="370" height="420" class="ascii-card">
+  <defs>
+    <style>
+      .ascii-card {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        background: #0B0F19;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+      }
+      .terminal-bar {
+        fill: #94A3B8;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .ascii-row {
+        fill: #F0B87E;
+        font-size: 8.8px;
+        letter-spacing: 1px;
+        white-space: pre;
+        opacity: 0;
+        animation: typeRow 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+      @keyframes typeRow {
+        0% {
+          opacity: 0;
+          transform: translateY(2px);
+        }
+        100% {
+          opacity: 0.92;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="16" fill="#0B0F19" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="24" r="4.5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="39" cy="24" r="4.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="54" cy="24" r="4.5" fill="#10B981" opacity="0.8"/>
+  <text x="74" y="28" class="terminal-bar">javid@ascii-portrait: ~</text>
+
+  <!-- ASCII Lines -->
+  <text x="24" y="68.0" class="ascii-row" style="animation-delay: 80ms;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@%@@@@@@@@@@@</text><text x="24" y="78.5" class="ascii-row" style="animation-delay: 125ms;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="89.0" class="ascii-row" style="animation-delay: 170ms;">@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="99.5" class="ascii-row" style="animation-delay: 215ms;">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="110.0" class="ascii-row" style="animation-delay: 260ms;">@@@@@@@@@@@@%@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="120.5" class="ascii-row" style="animation-delay: 305ms;">@@@@@@@@@@@@@@@@@%@%##%%%%@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="131.0" class="ascii-row" style="animation-delay: 350ms;">@@@@@@@@@@@@@@@@%%%=#@%@@@%@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="141.5" class="ascii-row" style="animation-delay: 395ms;">@@@@@@@@@@@@@@@@@@#+*%+=+%@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="152.0" class="ascii-row" style="animation-delay: 440ms;">@@@@@@@@@@@@@@@%%-`+%%*=#**%@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="162.5" class="ascii-row" style="animation-delay: 485ms;">@@@@@@@@@@@@@@%@%-+%#%*#%=+%@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="173.0" class="ascii-row" style="animation-delay: 530ms;">@@@@@@@@@@@@@@@%@#-=%%##--%%@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="183.5" class="ascii-row" style="animation-delay: 575ms;">@@@@@@@@@@@@@@@@%@*+##*#%%%%%@@@@@@@@@@@@@@@@@@@</text><text x="24" y="194.0" class="ascii-row" style="animation-delay: 620ms;">@@@@@@@@@@@@@@@@%@%*##*###@@@@@@@@@@@@@@@@@@@@@@</text><text x="24" y="204.5" class="ascii-row" style="animation-delay: 665ms;">@@@@@@@@@@@@@@@@%%:       +=#@%@@@@@@@@@@@@@@@@@</text><text x="24" y="215.0" class="ascii-row" style="animation-delay: 710ms;">@@@@@@@@@@@@@@@@%%`       -:*@%@@@@@@@@@@@@@@@@@</text><text x="24" y="225.5" class="ascii-row" style="animation-delay: 755ms;">@@@@@@@@@@@@@@@@%@`       .#%@%@@@@@@@@@@@@@@@@@</text><text x="24" y="236.0" class="ascii-row" style="animation-delay: 800ms;">@@@@@@@@@@@@@@@@%@:.`:#.. =%%@@@@@@@@@@@@@@@@@@@</text><text x="24" y="246.5" class="ascii-row" style="animation-delay: 845ms;">@@@@@@@@@@@@@@@@%%+=@@%%#=%@%@@@@@@@@@@@@@@@@@@@</text><text x="24" y="257.0" class="ascii-row" style="animation-delay: 890ms;">@@@@@@@@@@@@@@@@%@*+%%%@@##%%@@@@@@@@@@@@@@@@@@@</text><text x="24" y="267.5" class="ascii-row" style="animation-delay: 935ms;">@@@@@@@@@@@@@@@%@#*@@@@%%%###%@@@@@@@@@@@@@@@@@@</text><text x="24" y="278.0" class="ascii-row" style="animation-delay: 980ms;">@@@@@@@@@@@@%%%@#::=+#%@%%#+#@%%%%%@@@@@@@@@@@@@</text><text x="24" y="288.5" class="ascii-row" style="animation-delay: 1025ms;">%%%%%%%%%%@@@@@*=%*=:*@%@@@#+#@@@@@@%%%%%%%%%%%%</text><text x="24" y="299.0" class="ascii-row" style="animation-delay: 1070ms;">@@@@@@@@@@%@%#`.#*+#%@%%*=-:  =%%##%@@@@@@@@@@@@</text><text x="24" y="309.5" class="ascii-row" style="animation-delay: 1115ms;">``.......`-::+:.:::+%%@#-. `   -===*`....`.`````</text><text x="24" y="320.0" class="ascii-row" style="animation-delay: 1160ms;">   :`...  +**%@%%#%#*%%`*+`. .:+%%@@=`:-.       </text><text x="24" y="330.5" class="ascii-row" style="animation-delay: 1205ms;">  .***+-:.+%%==*#%#+*-:-=+=`*##%@@@@@#*#+-**`   </text><text x="24" y="341.0" class="ascii-row" style="animation-delay: 1250ms;">                 ....=%@@@%#%#***++=`   -*#*    </text><text x="24" y="351.5" class="ascii-row" style="animation-delay: 1295ms;">                      .``.                      </text><text x="24" y="362.0" class="ascii-row" style="animation-delay: 1340ms;">                                                </text><text x="24" y="372.5" class="ascii-row" style="animation-delay: 1385ms;">                                                </text>
+</svg>

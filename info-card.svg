@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" width="490" height="420" class="info-card">
+  <defs>
+    <style>
+      .info-card {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        background: #0B0F19;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+      }
+      .terminal-bar {
+        fill: #94A3B8;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .row {
+        font-size: 11.5px;
+        opacity: 0;
+        transform: translateY(6px);
+        animation: rowFadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+      .user-title {
+        font-size: 13.5px;
+      }
+      @keyframes rowFadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(6px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="100%" height="100%" rx="16" fill="#0B0F19" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+  <!-- Terminal Window Bar -->
+  <circle cx="24" cy="24" r="4.5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="39" cy="24" r="4.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="54" cy="24" r="4.5" fill="#10B981" opacity="0.8"/>
+  <text x="74" y="28" class="terminal-bar">neofetch --profile</text>
+
+  <!-- Neofetch Rows -->
+  <text x="24" y="68" class="row user-title" style="animation-delay: 120ms;"><tspan fill="#F0B87E">USER: </tspan><tspan fill="#FFFFFF" font-weight="700">javid@portfolio</tspan></text><text x="24" y="92" class="row" style="animation-delay: 190ms; fill: #475569;">------------------------</text><text x="24" y="116" class="row" style="animation-delay: 260ms;"><tspan fill="#64748B" font-weight="600">OS        </tspan> <tspan fill="#E2E8F0">Ubuntu 24.04 LTS (AWS EC2 Production)</tspan></text><text x="24" y="140" class="row" style="animation-delay: 330ms;"><tspan fill="#64748B" font-weight="600">HOST      </tspan> <tspan fill="#38BDF8">mohamedjavid.dev (Live Next.js + FastAPI)</tspan></text><text x="24" y="164" class="row" style="animation-delay: 400ms;"><tspan fill="#64748B" font-weight="600">UPTIME    </tspan> <tspan fill="#E2E8F0">3rd Year B.Tech IT (SNS College • CGPA 8.47)</tspan></text><text x="24" y="188" class="row" style="animation-delay: 470ms;"><tspan fill="#64748B" font-weight="600">ROLE      </tspan> <tspan fill="#4ADE80">AI & Automation Intern @ Kauvery Hospitals</tspan></text><text x="24" y="212" class="row" style="animation-delay: 540ms;"><tspan fill="#64748B" font-weight="600">SPECIALTY </tspan> <tspan fill="#F0B87E">Multi-Agent Graphs, GraphRAG, Web Scraping</tspan></text><text x="24" y="236" class="row" style="animation-delay: 610ms;"><tspan fill="#64748B" font-weight="600">AGENTIC   </tspan> <tspan fill="#E2E8F0">LangGraph, Model Context Protocol (MCP), CrewAI</tspan></text><text x="24" y="260" class="row" style="animation-delay: 680ms;"><tspan fill="#64748B" font-weight="600">SCRAPING  </tspan> <tspan fill="#E2E8F0">Playwright, Scrapy, BeautifulSoup, Selenium</tspan></text><text x="24" y="284" class="row" style="animation-delay: 750ms;"><tspan fill="#64748B" font-weight="600">STACK     </tspan> <tspan fill="#E2E8F0">Python 3.11+, Next.js 16, React 19, TypeScript</tspan></text><text x="24" y="308" class="row" style="animation-delay: 820ms;"><tspan fill="#64748B" font-weight="600">CLOUD/DB  </tspan> <tspan fill="#E2E8F0">PostgreSQL, MongoDB, FAISS, Docker, Nginx, AWS</tspan></text><text x="24" y="332" class="row" style="animation-delay: 890ms;"><tspan fill="#64748B" font-weight="600">AWARDS    </tspan> <tspan fill="#FBBF24">GDG Delhi Winner • AI Agentathon 4th • AMD Slingshot</tspan></text><text x="24" y="356" class="row" style="animation-delay: 960ms;"><tspan fill="#64748B" font-weight="600">CONTACT   </tspan> <tspan fill="#94A3B8">connectjavid27@gmail.com • in/javidsiast</tspan></text>
+
+  <!-- Terminal Color Palette Bar -->
+  <rect x="24" y="394" width="20" height="12" rx="3" fill="#EF4444"/><rect x="50" y="394" width="20" height="12" rx="3" fill="#F59E0B"/><rect x="76" y="394" width="20" height="12" rx="3" fill="#10B981"/><rect x="102" y="394" width="20" height="12" rx="3" fill="#3B82F6"/><rect x="128" y="394" width="20" height="12" rx="3" fill="#8B5CF6"/><rect x="154" y="394" width="20" height="12" rx="3" fill="#F0B87E"/><rect x="180" y="394" width="20" height="12" rx="3" fill="#F8FAFC"/>
+</svg>
